@@ -7,4 +7,6 @@ const UserSchema = new Schema({
     age: Number
 }, { collection: 'Users'})  // 需要加上collection指定表名，不然查出的数据是[]，mongoose的梗
 
-export default mongoose.model('User', UserSchema)
+export default mongoose.model('Users', UserSchema)
+
+

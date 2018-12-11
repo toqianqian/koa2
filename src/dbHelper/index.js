@@ -1,10 +1,9 @@
 import mongoose from 'mongoose'
 import config from './../config'
 
-mongoose.Promise = global.Promise
 // 连接
 mongoose.connect(config.DB_URL, {
-    useMongoClient: true
+    useNewUrlParser: true
 });
 
 // 连接成功

@@ -1,4 +1,3 @@
-import mongoose from 'mongoose'
 import { User } from './../model'
 
 class UserController {
@@ -21,6 +20,3 @@ class UserController {
 }
 
 export default UserController
-// 上面不用static 则：export default new UserController()
-// 需实例化一个实例然后export
-// 问题来了，再react中可以直接export default XXX，这里有什么梗？？？？

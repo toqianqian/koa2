@@ -17,7 +17,9 @@
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.3.0",
-    "mongoose": "^4.13.9"
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.3.15",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
